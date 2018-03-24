@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/star1"
+    tools:context="com.example.saurabh.all_sensors.first_page"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:id="@+id/la"
+        android:layout_weight="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SENSORS"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btnstyle"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/s"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LIGHT AND PRESSURE DETECTOR"
+        android:id="@+id/l1"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btnstyle"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAGNETOMETER"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btnstyle"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:id="@+id/m"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/lb">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACCELEROMETER"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btnstyle"
+        android:id="@+id/a"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GYROSCOPE"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btnstyle"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/g"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btnstyle"
+        android:text="TEMPERATURE AND HUMIDITY DETECTOR"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/t"/>
+    </LinearLayout>
+
+</LinearLayout>

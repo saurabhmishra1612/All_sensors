@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30sp"
+    android:background="#ffff00"
+    tools:context="com.example.saurabh.all_sensors.gyroscope">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GYROSCOPE"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:background="@drawable/btnstyle"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xgvalue"
+        android:text="X-GYRO:"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ygvalue"
+        android:text="Y-GYRO: "
+        android:textSize="30dp"
+        android:gravity="center"
+
+        android:layout_marginTop="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zgvalue"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="30sp"
+        android:text="Z-GYRO: "/>
+</LinearLayout>

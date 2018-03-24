@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffff00"
+    android:padding="30sp"
+    tools:context="com.example.saurabh.all_sensors.light">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIGHT AND PRESSURE DETECTOR"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:background="@drawable/btnstyle"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="130dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lig"
+        android:text="LIGHT:"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pre"
+        android:text="PRESSURE: "
+        android:textSize="30dp"
+        android:gravity="center"
+
+        android:layout_marginTop="30sp"/>
+</LinearLayout>
